@@ -1,14 +1,14 @@
 ---
-title: A template presentation
-subtitle: so much fun
-author: SWC Neuroinformatics Unit
+title: brainglobe-registration
+subtitle: An elastix based registration plugin for napari
+author: Igor Tatarnikov
 execute: 
   enabled: true
 format:
     revealjs:
         theme: [default, niu-dark.scss]
         logo: img/logo_niu_dark.png
-        footer: "Edit this footer | 2023-07-26"
+        footer: "2023-11-08"
         slide-number: c
         menu:
             numbers: true
@@ -28,7 +28,7 @@ format:
     html:
         theme: [default, niu-dark.scss]
         logo: img/logo_niu_dark.png
-        date: "2023-07-05"
+        date: "2023-11-08"
         toc: true
         code-overflow: scroll
         highlight-style: atom-one
@@ -45,13 +45,10 @@ my-custom-stuff:
 
 ## Contents
 
-Some example slides - [also look at example RevealJS slides in the Quarto docs](https://quarto.org/docs/presentations/revealjs/)
-
-* Non-executable and executable code-blocks
-* bullet points with highlighting 
-* two-column slides 
-* how to include a slide from a separate MD file
-* preview and link to a webpage
+* Introduction to registration
+* Motivation for brainglobe-registration
+* Current state of the project
+* Future plans
 
 ## Just a code block, nothing gets executed...
 
