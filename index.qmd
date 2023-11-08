@@ -73,23 +73,14 @@ Tyson, A. L.*, Vélez-Fort, M.*, Rousseau, C. V.*, Cossell, L., Tsitoura, C., Ob
 
 ![](img/2D_Example3.png){.absolute left=0 right=0 bottom=0 top=0 style="margin: auto auto;"}
 
-<!--
-## Motivation
-
-::: {style="margin-top: 80px"}
-* Axioscan slide scanner
-* Need pipeline for this data
-* Show some images from Axioscan
-* Mention the serial section 2-photon microscopes and how people use them because they're "easy"
-:::
--->
 ## Scientific Requirements
 
 ::: {style="margin-top: 80px"}
-* 2D sections (any orientation, inc some damage)
-* Whole brains
-* Thick sections (e.g. from tissue clearing, acute recordings)
-* Small blocks (e.g. from tissue clearing or expansion microscopy)
+* Register:
+    * 2D sections (any orientation, inc some damage)
+    * Whole brains
+    * Thick sections (e.g. from tissue clearing, acute recordings)
+    * Small blocks (e.g. from tissue clearing or expansion microscopy)
 :::
 
 ## Tech Requirements
@@ -112,14 +103,6 @@ Tyson, A. L.*, Vélez-Fort, M.*, Rousseau, C. V.*, Cossell, L., Tsitoura, C., Ob
 
 ::: {style="margin-top: 80px;"}
 * Demo Time!
-:::
-
-## Current holdups
-
-::: {style="margin-top: 80px;"}
-* Premature optimisation
-* Start time for DefaultParameterObject in itk
-* Dealing with C++ objects in Python
 :::
 
 ## Future plans
