@@ -1,6 +1,6 @@
 ---
 title: brainglobe-registration
-subtitle: An elastix based registration plugin for napari
+subtitle: A registration napari plugin for BrainGlobe
 author: Igor Tatarnikov
 execute: 
   enabled: true
